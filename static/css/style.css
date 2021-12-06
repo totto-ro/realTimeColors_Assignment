@@ -1,0 +1,68 @@
+
+.main{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-family: sans-serif;
+}
+
+section{
+    display: block;
+    text-align: center;
+    margin: 80px;
+    height: 100%;
+    font-size: 50px;
+    width: 1600px;
+    font-family: sans-serif;
+}
+
+
+
+#blue:hover{
+    cursor: pointer;
+    background-color: rgb(140, 198, 255);
+    color: rgb(255, 255, 255);
+}
+
+#blue{
+    margin: 0px 150px;
+    padding: 50px 100px;
+    font-size: 35px;
+    background-color: dodgerblue;
+    color: rgb(0, 54, 107);
+    border: solid 2px rgb(0, 105, 211);
+    border-radius: 3px;
+}
+
+#green{
+    margin: 0px 150px;
+    padding: 50px 100px;
+    font-size: 35px;
+    background-color:mediumseagreen;
+    border: solid 2px rgb(0, 160, 72);
+    color:rgb(0, 93, 42);
+    border-radius: 3px;
+}
+
+#green:hover{
+    cursor: pointer;
+    background-color:rgb(155, 255, 200);
+    color: rgb(255, 255, 255);
+}
+
+#pink{
+    margin: 0px 150px;
+    padding: 50px 100px;
+    font-size: 35px;
+    background-color:hotpink;
+    border: solid 2px rgb(255, 48, 152);
+    color: rgb(185, 0, 93);
+    border-radius: 3px;
+}
+
+#pink:hover{
+    cursor: pointer;
+    background-color:rgb(255, 195, 225);
+    color: rgb(255, 255, 255);
+}
